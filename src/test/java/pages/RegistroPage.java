@@ -8,10 +8,10 @@ public class RegistroPage {
 
     private WebDriver driver;
 
-    // Locators estimados. Ajusta los By.* con los ids/names reales de la página
+
     private By linkCrearCuenta = By.linkText("¿No tiene una cuenta? Cree una aquí");
 
-    private By radioTratamientoSra = By.xpath("//label[@for='field-id_gender-2']");       // ejemplo
+    private By radioTratamientoSra = By.xpath("//label[@for='field-id_gender-2']");       
     private By txtNombre          = By.id("field-firstname");
     private By txtApellidos       = By.id("field-lastname");
     private By txtCorreo          = By.id("field-email");
