@@ -37,7 +37,7 @@ public class RegistroPage {
         driver.findElement(radioTratamientoSra).click();
         driver.findElement(txtNombre).sendKeys("Jennifer");
         driver.findElement(txtApellidos).sendKeys("RM");
-        driver.findElement(txtCorreo).sendKeys("jennifer_rm_55@gmail.com");
+        driver.findElement(txtCorreo).sendKeys("jennifer_rm_56@gmail.com");
         driver.findElement(txtContrasena).sendKeys("Jennifer_rm_01#$");
         driver.findElement(txtFechaNacimiento).sendKeys("27/07/1997");
         driver.findElement(chkTerminos).click();
