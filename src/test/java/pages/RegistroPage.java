@@ -21,7 +21,7 @@ public class RegistroPage {
     private By chkPrivacidad      = By.xpath("//label[input[@name='customer_privacy']]");
     private By btnGuardar         = By.xpath("//button[@type='submit' and @data-link-action='save-customer']");
 
-    // Elemento para validar usuario logeado (por ejemplo texto con el nombre)
+    
     private By lblUsuarioLogeado  = By.cssSelector("a.account span");
 
     public RegistroPage(WebDriver driver) {
