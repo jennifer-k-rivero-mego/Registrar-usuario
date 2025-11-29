@@ -8,10 +8,10 @@ public class HomePage {
 
     private WebDriver driver;
 
-    // URL de la tienda
+    
     private final String URL_STORE = "https://qalab.bensg.com/store";
 
-    // Locators (revísalos con F12 en el navegador por si cambian)
+    
     private By btnIniciarSesion = By.linkText("Iniciar sesión");
 
     public HomePage(WebDriver driver) {
