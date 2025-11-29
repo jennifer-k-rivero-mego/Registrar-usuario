@@ -9,9 +9,9 @@ import io.cucumber.junit.CucumberOptions;
         features = "src/test/java/features",
         glue = {"stepDefinition"},
         plugin = {
-                "pretty",                                 // salida bonita en consola
-                "html:target/cucumber-report.html",      // reporte HTML
-                "json:target/cucumber-report.json"       // opcional, para otros plugins
+                "pretty",                                 
+                "html:target/cucumber-report.html",      
+                "json:target/cucumber-report.json"       
         },
         tags = "@loginStore"
 )
