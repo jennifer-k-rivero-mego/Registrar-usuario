@@ -21,7 +21,7 @@ public class LoginStoreStepDefinition {
     @Dado("estoy en la página de la tienda")
     public void estoy_en_la_pagina_de_la_tienda() {
         if (driver == null) {
-            // Línea mágica 👇
+            
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
         }
